@@ -1,0 +1,96 @@
+
+    h1 {
+      font-size:50px;
+      margin-bottom: 15px;
+      background-color: aqua;
+      color:black;
+      text-align:center;
+      text-decoration:dotted;
+      z-index:0
+    }
+
+    .box_1 {
+        position: relative;
+        height: 200 px;
+        text-align:center;
+        background:lavenderblush;
+        image-orientation: center
+    }
+
+    .image_1 {
+      margin-left:auto;
+      margin-right:auto;
+      display:inline-block;
+      border: 8px solid transparent;
+      padding: 15px;
+      border-color:black;
+      left: 20px;
+      z-index:5
+      
+    }
+    .image_2 {
+        margin-left:auto;
+        margin-right:auto;
+        display:inline-block;
+        border: 6px solid transparent;
+        padding: 10px;
+        border-color:blueviolet;
+        z-index:1
+      }
+    .image_3 {
+        margin-left:auto;
+        margin-right:auto;
+        display:inline-block;
+        border: 4px solid transparent;
+        padding: 5px;
+        border-color:darkgreen;
+        z-index:3
+      }
+      .image_4 {
+        margin-left:auto;
+        margin-right:auto;
+        display:inline-block;
+        border: 2px solid transparent;
+        border-color:deeppink;
+        z-index:4
+      }
+
+      .link_1 {
+          font-size: 40px;
+      }
+      
+      #id_1 {
+          background-color: indianred;
+    
+    }
+
+    .main-text {
+        position: absolute;
+        background-color: lightgrey;
+        border: 2px solid black;
+        top: 85px;
+
+    }
+
+    .contact-box {
+        position: absolute;
+        top: 0px;
+        right:0 px;
+        border:2px solid black;
+        background-color: honeydew;
+        text-align:center;
+        z-index: index 5;
+
+
+
+    }
+    #header {
+        font-size: medium;
+    }
+    #phone {
+        text-align:center;
+    }
+    #email {
+        text-align:center;
+
+    }
