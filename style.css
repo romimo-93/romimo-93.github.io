@@ -1,96 +1,56 @@
 
-    h1 {
-      font-size:50px;
-      margin-bottom: 15px;
-      background-color: aqua;
-      color:black;
-      text-align:center;
-      text-decoration:dotted;
-      z-index:0
+    .navbar-brand {
+      font-size: 40px;   
+  }
+  
+  .navbar-right {
+      width: 50%;
     }
-
-    .box_1 {
-        position: relative;
-        height: 200 px;
-        text-align:center;
-        background:lavenderblush;
-        image-orientation: center
-    }
-
-    .image_1 {
-      margin-left:auto;
-      margin-right:auto;
-      display:inline-block;
-      border: 8px solid transparent;
+  
+  #main-pic {
+      float: left;
+      width: 150px;
+      padding: 10px
+  }
+  .lead {
       padding: 15px;
-      border-color:black;
-      left: 20px;
-      z-index:5
-      
+      background-color: rgba(245, 245, 245, 0.815);
+      font-size: 25px;
+      /* -ms-grid-row-align: center; */
+      text-align: center;  
+  }
+  
+  .assets {
+      padding: 10px;
+      text-align: center;
+  }
+  
+  .header {
+      font-size: 40px
+  }
+  
+  .box-container {
+      display: grid;
+      border: 2px solid rgba(7, 7, 7, 0.5);
+      height: 250px;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto;
+      background: rgba(226, 226, 226, 0.4);
+      justify-items: center;
     }
-    .image_2 {
-        margin-left:auto;
-        margin-right:auto;
-        display:inline-block;
-        border: 6px solid transparent;
-        padding: 10px;
-        border-color:blueviolet;
-        z-index:1
-      }
-    .image_3 {
-        margin-left:auto;
-        margin-right:auto;
-        display:inline-block;
-        border: 4px solid transparent;
-        padding: 5px;
-        border-color:darkgreen;
-        z-index:3
-      }
-      .image_4 {
-        margin-left:auto;
-        margin-right:auto;
-        display:inline-block;
-        border: 2px solid transparent;
-        border-color:deeppink;
-        z-index:4
-      }
-
-      .link_1 {
-          font-size: 40px;
-      }
-      
-      #id_1 {
-          background-color: indianred;
-    
+    .img {
+      width: 50%;
+      height: 50%;
+      background: rgba(158, 247, 239, 0.4);
+      border: 2px solid rgba(226, 226, 226, 0.4)
     }
-
-    .main-text {
-        position: absolute;
-        background-color: lightgrey;
-        border: 2px solid black;
-        top: 85px;
-
+    .img_id {
+        border-style: solid;
+        border-color:slategrey
     }
-
-    .contact-box {
-        position: absolute;
-        top: 0px;
-        right:0 px;
-        border:2px solid black;
-        background-color: honeydew;
-        text-align:center;
-        z-index: index 5;
-
-
-
-    }
-    #header {
-        font-size: medium;
-    }
-    #phone {
-        text-align:center;
-    }
-    #email {
-        text-align:center;
-
-    }
+  
+  .Comp-Header {
+      text-align: center;
+      padding: 10px
+  }
+  
