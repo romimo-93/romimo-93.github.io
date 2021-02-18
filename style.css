@@ -10,7 +10,14 @@
   #main-pic {
       float: left;
       width: 150px;
-      padding: 10px
+      padding: 1rem;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.4);
+        background: #333;
+        background-size: cover;
+        margin-right:30px;
+        margin-bottom:30px;
+        display: block;
+        border: 1px solid white;
   }
   .lead {
       padding: 15px;
@@ -19,6 +26,9 @@
       /* -ms-grid-row-align: center; */
       text-align: center;  
   }
+  .contact_page {
+    text-align: center; 
+  }
   
   .assets {
       padding: 10px;
@@ -26,7 +36,9 @@
   }
   
   .header {
-      font-size: 40px
+      font-size: 40px;
+      text-align: center;
+
   }
   
   .box-container {
@@ -54,3 +66,11 @@
       padding: 10px
   }
   
+  @media (max-width: 600px) {
+    .navbar-dark.bg-dark {
+        background-color:violet  !important;}
+    .btn.btn-primary {
+        background-color:slategrey  !important;
+        border-color:#333 !important;}
+    
+}
